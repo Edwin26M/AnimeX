@@ -37,14 +37,14 @@ export default function Conocenos () {
                 <div className="flex flex-wrap justify-center gap-8">
                     <video
                         className="w-64 h-36 rounded-lg shadow-lg"
-                        src="/Love%20Love%20Song.mp4"
+                        src=""
                         autoPlay
                         loop
                         muted
                     ></video>
                     <video
                         className="w-64 h-36 rounded-lg shadow-lg"
-                        src="/Bling-Bling-Born.mp4"
+                        src=""
                         autoPlay
                         loop
                         muted
