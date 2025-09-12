@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@layer utilities {
+    .anim-zoom {
+        @apply transition-transform duration-500 ease-in-out hover:scale-110;
+    }
+}
+
+.swiper-button-prev {
+    bottom: 10px !important;
+    top: auto !important;
+    color: black !important;
+}
+
+.swiper-button-next {
+    bottom: 10px !important;
+    top: auto !important;
+    color: black !important;
+}
+
+body{
+    background: linear-gradient(to bottom,
+    black,         /* from-black */
+    #111827,       /* via-gray-900 */
+    #172554        /* to-blue-950 */
+    );
+}
