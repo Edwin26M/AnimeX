@@ -66,7 +66,8 @@ export function Form() {
 
     return (
         <>
-            <form onSubmit={handleSubmit} className="flex flex-col w-[400px] pl-[20px] mt-[5px] space-y-3">
+            <form onSubmit={handleSubmit}
+                  className="flex flex-col w-[400px] pl-[20px] mt-[5px] space-y-3 max-w-md mx-auto p-4 sm:p-6 md:p-8 bg-gray-900 rounded-lg shadow-lg">
                 <h3 className="text-white font-bold">Queremos saber un poco de lo que te gusta para darte una pequeña recommendation
                     asi que nos apoyarías mucho llenando la informacion que te pedimos.</h3>
                 <br/>
