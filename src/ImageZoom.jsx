@@ -11,7 +11,8 @@ const ImageZoom = () => {
         "/lycoris.png",
         "/dandadan.jpg",
         "/miku.jpg",
-        "/tokyo.jpg"
+        "/tokyo.jpg",
+        "/Ichigo.jpg",
     ];
 
     return (
