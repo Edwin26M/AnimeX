@@ -16,10 +16,7 @@ export default function Home() {
                     </div>
                 </div>
 
-
-                <div className="flex justify-center w-full max-w-lg">
-                    <ImageZoom />
-                </div>
+                <ImageZoom />
             </div>
         </>
     );
