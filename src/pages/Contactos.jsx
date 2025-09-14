@@ -5,7 +5,7 @@ export default function Contactos () {
                 <div className="bg-black/70 backdrop-blur-md rounded-2xl shadow-[0_0_25px_rgba(0,200,255,0.6)] sm:p-8 max-w-md sm:max-w-lg lg:max-w-2xl w-full text-center anim-zoom">
                 <h1 className="text-white text-xl sm:text-2xl lg:text-3xl font-bold"> ⚔️ ¡Conéctate con el gremio de cazadores! ⚔️ </h1>
                 <br/>
-                    <p className="mt-4 text-sm sm:text-base lg:text-lg leading-relaxed">
+                    <p className=" text-white mt-4 text-sm sm:text-base lg:text-lg leading-relaxed">
                         Escribenos y entra para conocernos la variedad de cosas que tenemos y convierte en un miembro de nostros
                         y sera invocado mas rapido que una sombra de Sung Jin Woo.
                     </p>

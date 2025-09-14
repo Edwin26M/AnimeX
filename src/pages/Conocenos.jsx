@@ -10,7 +10,7 @@ export default function Conocenos () {
                     <br/>
                     <p className="text-white text-lg sm:text-xl">Nosotros ofrecemos las mejores series de anime que puedas ver con una buena calidad y ofreciendo las series el mismo dia que se publican en Japon no te pierdas de nada y mantente al tanto con nosotros.</p>
                 </div>
-                <div className="flex-1 w-full max-w-lg">
+                <div className="flex-1  max-w-lg">
                     <Carrusel/>
                 </div>
             </div>
