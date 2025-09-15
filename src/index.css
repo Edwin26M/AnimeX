@@ -5,35 +5,6 @@
         @apply transition-transform duration-500 ease-in-out hover:scale-110;
     }
 }
-
-/* Botones de navegación personalizados */
-.swiper-button-prev,
-.swiper-button-next {
-    position: absolute;
-    bottom: -40px; /* Debajo de las imágenes */
-    top: auto;
-    width: 40px;
-    height: 40px;
-    background: white; /* círculo blanco */
-    border-radius: 50%;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* sombrita suave */
-    color: black !important; /* color del ícono */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* Ajuste para que las flechas estén centradas horizontalmente */
-.swiper-button-prev {
-    left: 40%;
-    transform: translateX(-50%);
-}
-
-.swiper-button-next {
-    right: 40%;
-    transform: translateX(50%);
-}
-
 body{
     background: linear-gradient(to bottom,
     black,         /* from-black */
