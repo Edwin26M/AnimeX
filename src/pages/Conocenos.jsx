@@ -44,19 +44,22 @@ export default function Conocenos () {
                 <div className="flex flex-wrap justify-center gap-6">
                     <video
                         className="w-72 h-40 sm:w-80 sm:h-48 rounded-lg shadow-lg"
-                        src="https://drive.google.com/file/d/1Ru5iVK4wPZheQ6i1j-9IIj2fk2s69IEO/view?usp=sharing"
+                        src="https://drive.google.com/uc?export=download&id=1Ru5iVK4wPZheQ6i1j-9IIj2fk2s69IEO"
                         autoPlay
                         loop
                         muted
+                        controls
                     ></video>
                     <video
                         className="w-72 h-40 sm:w-80 sm:h-48 rounded-lg shadow-lg"
-                        src="https://drive.google.com/file/d/1jg9EeAdgulCH0b_iY17ba1DIp5YnldQj/view?usp=sharing"
+                        src="https://drive.google.com/uc?export=download&id=1jg9EeAdgulCH0b_iY17ba1DIp5YnldQj"
                         autoPlay
                         loop
                         muted
+                        controls
                     ></video>
                 </div>
+
             </section>
 
         </>
