@@ -198,13 +198,7 @@ export default function Carrusel() {
                     />
                 </SwiperSlide>
             </Swiper>
-
-                <div className="absolute -bottom-12 left-1/2 flex gap-6 -translate-x-1/2
-                sm:gap-8 md:gap-10">
-                    <div className="swiper-button-prev"></div>
-                    <div className="swiper-button-next"></div>
-                </div>
-            </div>
+        </div>
         </>
     );
 }
