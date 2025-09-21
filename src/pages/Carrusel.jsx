@@ -22,181 +22,24 @@ export default function Carrusel() {
                     centeredSlides={true}
                     className="rounded-2xl"
                 >
-                <SwiperSlide>
-                    <img
-                        src="/Carrusel/1.jpg"
-                        alt="Slide 1"
-                        className="w-full h-auto object-cover rounded-2xl"
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        src="/Carrusel/2.jpg"
-                        alt="Slide 1"
-                        className="w-full h-auto object-cover rounded-2xl"
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        src="/Carrusel/3.png"
-                        alt="Slide 1"
-                        className="w-full h-auto object-cover rounded-2xl"
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        src="/Carrusel/4.jpg"
-                        alt="Slide 1"
-                        className="w-full h-auto object-cover rounded-2xl"
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        src="/Carrusel/5.jpg"
-                        alt="Slide 1"
-                        className="w-full h-auto object-cover rounded-2xl"
-                        />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        src="/Carrusel/6.jpg"
-                        alt="Slide 1"
-                        className="w-full h-auto object-cover rounded-2xl"
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        src="/Carrusel/7.jpg"
-                        alt="Slide 1"
-                        className="w-full h-auto object-cover rounded-2xl"
-                        />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        src="/Carrusel/8.jpg"
-                        alt="Slide 1"
-                        className="w-full h-auto object-cover rounded-2xl"
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        src="/Carrusel/9.jpg"
-                        alt="Slide 1"
-                        className="w-full h-auto object-cover rounded-2xl"
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        src="/Carrusel/10.jpg"
-                        alt="Slide 1"
-                        className="w-full h-auto object-cover rounded-2xl"
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        src="/Carrusel/11.jpeg"
-                        alt="Slide 1"
-                        className="w-full h-auto object-cover rounded-2xl"
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        src="/Carrusel/12.jpg"
-                        alt="Slide 1"
-                        className="w-full h-auto object-cover rounded-2xl"
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        src="/Carrusel/13.jpg"
-                        alt="Slide 1"
-                        className="w-full h-auto object-cover rounded-2xl"
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        src="/Carrusel/14.jpg"
-                        alt="Slide 1"
-                        className="w-full h-auto object-cover rounded-2xl"
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        src="/Carrusel/15.png"
-                        alt="Slide 1"
-                        className="w-full h-auto object-cover rounded-2xl"
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        src="/Carrusel/16.jpeg"
-                        alt="Slide 1"
-                        className="w-full h-auto object-cover rounded-2xl"
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        src="/Carrusel/17.jpg"
-                        alt="Slide 1"
-                        className="w-full h-auto object-cover rounded-2xl"
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        src="/Carrusel/18.jpg"
-                        alt="Slide 1"
-                        className="w-full h-auto object-cover rounded-2xl"
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        src="/Carrusel/19.jpg"
-                        alt="Slide 1"
-                        className="w-full h-auto object-cover rounded-2xl"
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        src="/Carrusel/20.png"
-                        alt="Slide 1"
-                        className="w-full h-auto object-cover rounded-2xl"
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        src="/Carrusel/21.jpg"
-                        alt="Slide 1"
-                        className="w-full h-auto object-cover rounded-2xl"
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        src="/Carrusel/22.png"
-                        alt="Slide 1"
-                        className="w-full h-auto object-cover rounded-2xl"
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        src="/Carrusel/23.jpg"
-                        alt="Slide 1"
-                        className="w-full h-auto object-cover rounded-2xl"
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        src="/Carrusel/24.jpg"
-                        alt="Slide 1"
-                        className="w-full h-auto object-cover rounded-2xl"
-                    />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img
-                        src="/Carrusel/25.png"
-                        alt="Slide 1"
-                        className="w-full h-auto object-cover rounded-2xl"
-                    />
-                </SwiperSlide>
+
+                    {/* imagenes.map((_, index) => (
+
+                    ))*/}
+
+                    {Array.from({ length: 28 }).map((_, index) => (
+                        <SwiperSlide>
+                            <img
+                                src={`/Carrusel/${index + 1}.jpg`}
+                                alt={`Slide ${index + 1}`}
+                                className="w-full h-auto object-cover rounded-2xl"
+                                onError={(e) => {
+                                    e.currentTarget.onerror = null; // para evitar bucles infinitos
+                                    e.currentTarget.src = `/Carrusel/${index + 1}.png`;
+                                }}
+                            />
+                        </SwiperSlide>
+                        ))}
             </Swiper>
         </div>
         </>
